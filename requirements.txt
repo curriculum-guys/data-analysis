@@ -1,0 +1,7 @@
+git+https://github.com/curriculum-guys/data-interfaces.git@master
+seaborn
+matplotlib
+plotly
+numpy
+pandas
+ipykernel
