@@ -5,3 +5,7 @@ plotly
 numpy
 pandas
 ipykernel
+scikit-learn
+statsmodels
+tensorflow
+imblearn
