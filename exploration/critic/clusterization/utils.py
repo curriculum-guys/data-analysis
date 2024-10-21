@@ -29,12 +29,11 @@ def fit_cv(reg, data, model):
 
     return params
 
-def get_label(y):
+def get_label(y, n_classes=4):
     upper_limit = 200
-    n_classes = 4
     lower_limit = (upper_limit / n_classes)
 
     if y > upper_limit:
-        return n_classes + 1
+        return n_classes
     else:
         return y // lower_limit
